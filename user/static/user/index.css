@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-image: url("background_without_logo-03.png");
+  /* background-color: aqua; */
+  background-size: cover;
+  height:100vh ;
+  width: 100%;
+}
+
+.heading{
+  color: navy;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading h2{
+  font-size: 6rem;
+}
+.heading h1{
+  font-weight: bolder;
+  font-size: 6rem;
+}
